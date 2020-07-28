@@ -1,0 +1,8 @@
+spec: 'src/api/tests/'
+require: 'ts-node/register'
+extension:
+  - 'ts'
+slow: 2000
+timeout: 100000
+ui: 'bdd'
+reporter: mochawesome

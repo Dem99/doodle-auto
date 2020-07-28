@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "baseUrl": "https://doodle.com",
+      "paths": {
+          "*": [ "./*" ],
+          "src/*": ["./src/*"]
+      },
+      "types": [
+        "node", 
+        "@wdio/sync", 
+        "@wdio/cucumber-framework",
+        "@types/mocha",
+        "@types/supertest",
+        "@types/chai",
+        "@types/qs",
+
+      ],
+      "target": "es5",
+      "lib": ["es2018"],
+  },
+  "include": [
+      "ui/**/*.ts"
+  ]
+}

@@ -1,0 +1,8 @@
+!.eslintrc
+node_modules
+package-lock.json
+.vscode
+allure-report
+allure-results
+.editorconfig
+mochawesome-report
