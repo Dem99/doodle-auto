@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
-    "test:ui": "wdio wdio.conf.js",
+    "test:ui": "node_modules/.bin/wdio test/wdio.conf.js",
     "allure-report": "allure generate ./allure-results --clean && allure open"
   },
   "keywords": [],
