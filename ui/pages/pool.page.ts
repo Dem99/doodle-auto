@@ -8,7 +8,7 @@ class PoolPage extends Page {
   }
 
   get ["meeting"]() {
-    return `div.d-content`;
+    return `div.d-contentContainer`;
   }
 
   open() {
